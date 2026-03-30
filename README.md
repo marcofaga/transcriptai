@@ -40,11 +40,7 @@ Este projeto automatiza a extração de áudio, transcrição e **identificaçã
 3. **Instale as dependências:**
    O instalador do WhisperX cuidará da versão correta do PyTorch compatível com sua GPU.
    ```bash
-<<<<<<< HEAD
    pip install whisperx moviepy==1.0.3 python-dotenv
-=======
-   pip install whisperx moviepy python-dotenv
->>>>>>> 5cd78387f66597025df8fe0ca1182f0a41843680
    sudo apt update && sudo apt install ffmpeg -y
    ```
 
@@ -84,16 +80,4 @@ Para a diarização, é necessário aceitar os termos de uso dos modelos da Pyan
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para detalhes.
-
-## 📜 Citação
-
-If you use this project in your research or wish to refer to the underlying technology, please cite the WhisperX paper:
-
-```bibtex
-@article{marcofaga,
-  title={TranscriptAI com WhisperX e Diarização},
-  author={Faganello, Marco Antonio},
-  year={2026}
-}
-```
+Este projeto está sob a licença GPL-3.0. Veja o arquivo [LICENSE](LICENSE) para detalhes.
